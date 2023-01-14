@@ -1,0 +1,171 @@
+body{
+    margin: auto;
+    background-color:antiquewhite;
+}
+
+/*header*/
+header{
+    /* border: 5px solid black; */
+    height: 70px;
+    width:100%;
+    background-color: rgb(9, 191, 223);
+}
+#brand{
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 5%;
+    float:left;
+    color: white;
+}
+#register{
+    /* border: 3px solid black; */
+    height: 50%;
+    width: 20%;
+    float: right;
+    margin-top: 2%;
+}
+#github_in>input{
+    background-color: rgb(69, 48, 73);
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 30px;
+    border: none;
+}
+#signUp>input{
+    background-color: rgb(13, 95, 248);
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+#login>input{
+    background-color: rgb(23, 236, 158);
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+/*filter*/
+#filter{
+    border: 5px solid gray;
+    height: 500px;
+    width:15%;
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;
+}
+#filter_heading{
+    font-size: 30px;
+    margin-top: 10%;
+    font-weight: 900;
+    text-align: center;
+}
+#filter_Subheading1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#radio1{
+    font-weight: 700;
+    line-height: 1.5;
+}
+#filter_Subheading2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#radio2{
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/*resaurants*/
+#restaurants{
+    /* border: 5px solid black; */
+    height: 550px;
+    width:65% ;
+    float: right;
+    margin-top:3% ;
+    margin-right: 4%;
+}
+#restaurant1{
+    height: 48%;
+    width: 100%;
+    /* border: 3px solid red; */
+    margin-right: 10%;
+    box-shadow:10px 5px 5px gray; 
+}
+#restaurant2{
+    height: 48%;
+    width: 100%;
+    /* border: 3px solid rgb(36, 211, 27); */
+    margin-top: 2%;
+    margin-right: 10%;
+    box-shadow: 10px 5px 5px gray;
+}
+.picture{
+    width: 35%;
+    height: 85%;
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+    float: left;
+}
+.picture>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.content{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    float: right;
+}
+.cafe_name{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 1%;
+    color: rgb(8, 110, 165);
+    text-align: center;
+}
+.address{
+    font-size: 20px;
+    margin-top: 4%;
+}
+.quality{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-left: 50px;
+}
+.inputs>span>input{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.nightlife>input{
+    background-color: rgb(240, 33, 15);
+}
+.lunch>input{
+    background-color: rgb(172, 8, 150);
+}
+.north_indian>input{
+    background-color: rgb(112, 10, 186);
+}
+.south_indian>input{
+    background-color: rgb(185, 6, 213);
+}
+.chinese>input{
+    background-color: rgb(10, 84, 195);
+}
