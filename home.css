@@ -32,7 +32,7 @@ header{
 /*search*/
 #search{
     height: 450px;
-    background-image: url(/zomato/images/foodWallpaper.png);
+    background-image: url(./images/foodWallpaper.png);
     background-repeat: no-repeat;
     /* background-size:cover; */
     background-size: 100% 450px;
