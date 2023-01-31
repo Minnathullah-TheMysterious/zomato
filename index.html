@@ -1,7 +1,8 @@
 <html>
     <head>
-        <title>home page</title>
+        <title>Zomato|Home</title>
         <link rel="stylesheet" href="./home.css">
+        <script src="./home.js"></script>
     </head>
     <body>
         <header>
@@ -9,9 +10,9 @@
                 Minnathullah TheMysterious
             </div>
             <div id="social">
-                <a href="#"><img src="https://i.ibb.co/XywT9pB/instagram.png" alt="IG logo" class="socialMedia"></a>
-                <a href="#"><img src="https://i.ibb.co/8zySk4N/facebook1.png" alt="facebook1" class="socialMedia"></a>
-                <a href="#"><img src="https://i.ibb.co/BBmcGNQ/YouTube.jpg" alt="YouTube" class="socialMedia"></a>
+                <a href="https://ibb.co/n3WSTf2"><img src="https://i.ibb.co/XywT9pB/instagram.png" alt="IG logo" border="0" class="socialMedia"></a>
+                <a href="https://ibb.co/GsZbm3n"><img src="https://i.ibb.co/8zySk4N/facebook1.png" alt="facebook1" border="0" class="socialMedia"></a>
+                <a href="https://ibb.co/njT6BCY"><img src="https://i.ibb.co/BBmcGNQ/YouTube.jpg" alt="YouTube" border="0" class="socialMedia"></a>
             </div>
         </header>
         <div id="search">
@@ -29,6 +30,15 @@
                     <option value="">----SELECT Restaurants----</option>
                 </select>
             </div>
+        </div>
+        <!-- coupan -->
+        <div class="coupon">
+            <button onclick="closeCoupon()" id="close">&times;</button>
+            <p class="couponContent">Mohammed Minnathullah</p>
+            <p class="couponContent">Degree Of Bachelors In Electrical Electronics Engeineering</p>
+            <p class="couponContent">From Jawaharlal Nehru Technological University, Hyderabad</p>
+            <p class="couponContent">Keen to explore new things</p>
+            <p class="couponContent">Always wants to improve</p>
         </div>
         <div id="quick_search">
             <span class="quickHeading">
@@ -144,10 +154,15 @@
                 </div>
             </div>
             <div id="footer_logo">
-                <a href="#"><img src="https://i.ibb.co/XywT9pB/instagram.png" alt="IG logo"  class="socialMedia"></a>
-                <a href="#"><img src="https://i.ibb.co/8zySk4N/facebook1.png" alt="facebook1"  class="socialMedia"></a>
-                <a href="#"><img src="https://i.ibb.co/BBmcGNQ/YouTube.jpg" alt="YouTube"  class="socialMedia"></a>
+                <a href="https://ibb.co/n3WSTf2"><img src="https://i.ibb.co/XywT9pB/instagram.png" alt="IG logo"  class="socialMedia"></a>
+                <a href="https://ibb.co/GsZbm3n"><img src="https://i.ibb.co/8zySk4N/facebook1.png" alt="facebook1"  class="socialMedia"></a>
+                <a href="https://ibb.co/njT6BCY"><img src="https://i.ibb.co/BBmcGNQ/YouTube.jpg" alt="YouTube"  class="socialMedia"></a>
             </div>
         </footer>
+
+        <!-- script tag here? To call the function when the page is loaded -->
+        <script> 
+            window.onload=loadCoupon()
+        </script>
     </body>
 </html>

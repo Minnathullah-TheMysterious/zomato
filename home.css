@@ -36,6 +36,7 @@ header{
     background-repeat: no-repeat;
     /* background-size:cover; */
     background-size: 100% 450px;
+    /* opacity: 0.4; */
 }
 #logo{
     height: 150px;
@@ -99,6 +100,31 @@ header{
     text-align: center;
 }
 
+/* coupan */
+.coupon{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(243, 7, 34);
+    margin-left: 35%;
+    margin-top: -400px;
+    position: absolute;
+    z-index:100; /* z-index indicates that it will remain at the top of everything*/
+    display: none;
+    box-shadow: 3px 3px rgb(14, 13, 13), -1em 0.4em rgb(113, 58, 222);
+}
+.couponContent{
+    font-size:20px;
+    margin-left: 25px;
+    color: white;
+}
+#close{
+    color: rgb(90, 9, 228);
+    height: 40px;
+    width: 40px;
+    float: right;
+    font-size: 30px;
+    
+}
 /*Quick Search*/
 #quick_search{
     display: inline-block;
